@@ -3,14 +3,14 @@
 - MySQL database that contains denormalized node data.
 ## initializing NeighboringNodes
 ### NeighboringNodes(size, debug)
-Creates NeighboringNodes instance, calls grid function, and prints grid elements if debug is True.
+Creates NeighboringNodes instance, calls grid function, and prints grid elements if debug is True.  
 parameters:
 - size: int >= 0
 - debug: boolean
 
 ## Methods
 ### get_coords(i)
-Returns x,y coords of node at index i. x and y are defined by list index (e.g. the top left node of a grid would have (0,0) coordinates).
+Returns x,y coords of node at index i. x and y are defined by list index (e.g. the top left node of a grid would have (0,0) coordinates).  
 parameters:
 - i: int >= 1
 
