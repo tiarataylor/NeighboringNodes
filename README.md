@@ -16,10 +16,10 @@ Parameters:
 Creates grid of sizexsize nodes and prints grid nodes if debug is True.
 
 ### get_coords(i)
-Returns tuple of x,y coords of node at index i. x and y are defined by list index (e.g. the top left node of a grid would have (0,0) coordinates). 
+Returns tuple of x,y coords of node at index i. x and y are defined by list index (e.g. the top left node of a grid would have (0,0) coordinates and index 1). 
 
 Parameters:
-- i: int >= 1
+- i: index - int
 
 ### get_neighbors(m,type,x,y)
 Returns list of x,y coords of the neighbors of the specified node based on neighborhood type.
@@ -27,7 +27,7 @@ Returns list of x,y coords of the neighbors of the specified node based on neigh
 Parameters:
 - m: radius - int, 0 < m >= size/2
 - type: neighborhood type - enum that must be either Type.DIAMOND, Type.SQUARE, or Type.CROSS
-- x or i: x coord of specified node or index of specified node if x,y coords aren't given - int
+- x or i: x coord of specified node or index of specified node if x,y coords aren't given. - int
 - y(optional): y coord of specified node if given - int 
 
 ## SQL Database
