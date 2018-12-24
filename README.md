@@ -3,7 +3,7 @@
 - MySQL database that contains denormalized node data.
 ## initializing NeighboringNodes
 ### NeighboringNodes(size, debug)
-Creates NeighboringNodes instance, calls grid function, and prints grid nodes if debug is True.  
+Creates NeighboringNodes instance, and calls grid function. 
 
 Parameters:
 - size: int >= 0
