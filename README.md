@@ -31,10 +31,12 @@ Parameters:
 ## SQL Database
 Using mysql and sequelpro.
 ### Procedures:
+
 - Run CREATE TABLE statement.
 - import dummy_data.csv into table.
 
-Sample Queries:
+### Sample Queries:
+
 SELECT * FROM NeighboringNodes;
 SELECT * FROM NeighboringNodes where size = 3;
 #querying neighbor nodes and specified node with index 5 on grid of size 3
