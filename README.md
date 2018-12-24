@@ -28,9 +28,9 @@ Parameters:
 - x or i: x coord of specified node or index of specified node if x,y coords aren't given - int
 - y(optional): y coord of specified node if given - int 
 
-##SQL Database
+## SQL Database
 Using mysql and sequelpro.
-###Procedures:
+### Procedures:
 - Run CREATE TABLE statement.
 - import dummy_data.csv into table.
 
