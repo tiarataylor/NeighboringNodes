@@ -1,9 +1,10 @@
 # NeighboringNodes
 - Python program that creates a grid of nodes and finds the neighbors of specified node.
 - MySQL database that contains denormalized node data.
+## Procedures:
+- upload file to python IDE
 
-## Procedures
-- Download python file and 
+## Functions
 ### NeighboringNodes(size, debug)
 Creates NeighboringNodes instance, and calls grid function. 
 
@@ -11,7 +12,6 @@ Parameters:
 - size: int >= 0
 - debug: boolean
 
-## Functions
 ### grid()
 Creates grid of sizexsize nodes and prints grid nodes if debug is True.
 
