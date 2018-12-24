@@ -14,7 +14,7 @@ Parameters:
 Creates grid of sizexsize nodes and prints grid nodes if debug is True.
 
 ### get_coords(i)
-Returns x,y coords of node at index i. x and y are defined by list index (e.g. the top left node of a grid would have (0,0) coordinates). 
+Returns tuple of x,y coords of node at index i. x and y are defined by list index (e.g. the top left node of a grid would have (0,0) coordinates). 
 
 Parameters:
 - i: int >= 1
